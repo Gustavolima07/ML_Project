@@ -1,15 +1,13 @@
-import { Navbar } from './Components'
-
+import { Navbar, Footer } from "./Components";
 
 function App() {
   return (
     <>
       <Navbar />
-      <h1 class="text-3xl font-bold underline text-center">
-        Hello world!
-      </h1>
+      <h1 class="text-3xl font-bold underline text-center">Hello world!</h1>
+      <Footer />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
