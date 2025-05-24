@@ -1,11 +1,15 @@
 @import "tailwindcss";
 
-:root {
-    --preto : #000000;
-    --cinza : #e0e0e0;
-    --rosa : #FF1493;
-    --verde : #008000;
+@theme { /* Cores do sistema */
+    --color-laranja: #ffad08;
+    --color-amarelo: #edd75a;
+    --color-verde: #73b06f;
+    --color-azul: #0c8f8f;
+    --color-cinza: #f2f2f2;
+    --color-dark: #405059;
 }
+
+
 
 *{
     margin: 0;

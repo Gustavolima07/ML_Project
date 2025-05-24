@@ -1,11 +1,13 @@
-import { Navbar, Footer } from "./Components";
+import { BrowserRouter } from 'react-router';
+import { Router } from '../Router';
+
 
 function App() {
   return (
     <>
-      <Navbar />
-      <h1 class="text-3xl font-bold underline text-center">Hello world!</h1>
-      <Footer />
+      <BrowserRouter>
+        <Router />
+      </BrowserRouter>
     </>
   );
 }
